@@ -1,0 +1,25 @@
+{
+  "extends": "@epreston/tsconfig",
+  "compilerOptions": {
+    /* Modules */
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@networklayer/*": ["packages/*/src"],
+      "networklayer": ["packages/networklayer/src"]
+    },
+    "types": ["vitest/globals", "node"],
+    "resolveJsonModule": true,
+
+    /* Emit */
+    "outDir": "temp"
+  },
+  "include": [
+    "src",
+    "test",
+    "global.d.ts",
+    "packages/*/src",
+    "packages/*/tests",
+    "scripts/vitest-setup.js"
+  ]
+}

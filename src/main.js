@@ -16,4 +16,5 @@ document.querySelector('#app').innerHTML = `
 
 ticker.stop();
 
+// eslint-disable-next-line no-console
 console.log(`Loaded in ${ticker.getElapsedTime()}`);

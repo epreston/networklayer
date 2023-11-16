@@ -1,5 +1,7 @@
 # networklayer
 
+> 🚧 work in progress...
+
 Network collaboration layer for the Web
 
 [![NPM version][npm-badge]][npm-url]

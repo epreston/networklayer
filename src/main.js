@@ -1,5 +1,5 @@
 import './css/style.css';
-import viteLogoUrl from './img/vite.svg';
+import favIconUrl from './img/favicon.svg';
 import { Clock } from 'networklayer';
 
 const ticker = new Clock();
@@ -7,11 +7,11 @@ const ticker = new Clock();
 ticker.start();
 
 document.querySelector('#app').innerHTML = `
-  <a href="https://vitejs.dev" target="_blank">
-    <img src="${viteLogoUrl}" class="logo" alt="Vite logo" />
+  <a href="https://github.com/epreston/networklayer" target="_blank">
+    <img src="${favIconUrl}" class="logo" alt="favourite icon" />
   </a>
-  <h1>Hello Vite !</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+  <h1>Hello World !</h1>
+  <a href="https://github.com/epreston/networklayer" target="_blank">NetworkLayer</a>
 `;
 
 ticker.stop();

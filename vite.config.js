@@ -24,8 +24,6 @@ export default defineConfig({
   },
   test: {
     // globals: true,
-    // disable threads on GH actions to speed it up
-    threads: !process.env.GITHUB_ACTIONS,
     setupFiles: ['./scripts/vitest-setup.js'],
     sequence: {
       hooks: 'list'

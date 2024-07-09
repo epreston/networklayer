@@ -23,6 +23,7 @@ export default defineConfig({
     target: ['es2022']
   },
   test: {
+    pool: 'forks',
     // globals: true,
     setupFiles: ['./scripts/setup-vitest.js'],
     sequence: {
@@ -32,8 +33,9 @@ export default defineConfig({
       provider: 'v8',
       reporter: ['text-summary', 'html'],
       exclude: [
-        ...configDefaults.coverage.exclude
+        ...configDefaults.coverage.exclude,
         // entries that skew coverage reports here
+        'scripts/**'
       ]
     }
   }

@@ -30,6 +30,7 @@
     "@epreston/eslint-config": "^1.1.2",
     "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.2.0",
+    "@types/node": "^20.14.10",
     "@vitest/coverage-v8": "^2.0.1",
     "eslint": "^8.57.0",
     "jsdom": "^24.1.0",

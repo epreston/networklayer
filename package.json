@@ -4,6 +4,7 @@
   "name": "@networklayer/monorepo",
   "version": "0.0.2",
   "packageManager": "npm@10.8.1",
+  "repository": "github:epreston/networklayer",
   "workspaces": [
     "packages/*"
   ],

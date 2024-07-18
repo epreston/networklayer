@@ -1,14 +1,14 @@
 {
+  "type": "module",
+  "sideEffects": false,
   "name": "networklayer",
   "version": "0.0.1",
   "description": "Network collaboration layer for the Web",
-  "type": "module",
   "module": "./dist/networklayer.esm-bundler.js",
   "exports": "./dist/networklayer.esm-bundler.js",
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "buildOptions": {
     "formats": [
       "esm-bundler"
@@ -20,12 +20,11 @@
     "directory": "packages/networklayer"
   },
   "keywords": [
-    "networklayer", "2D"
+    "networklayer",
+    "2D"
   ],
   "author": "Ed Preston",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/epreston/networklayer/issues"
-  },
+  "bugs": "https://github.com/epreston/networklayer/issues",
   "homepage": "https://github.com/epreston/networklayer/blob/main/packages/networklayer#readme"
 }

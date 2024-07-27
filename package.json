@@ -15,13 +15,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
-    "start": "vite --open",
     "lint": "eslint .",
     "test": "vitest run",
     "test-watch": "vitest",
     "test-coverage": "vitest run --coverage",
-    "format": "prettier --check --cache \"**/*.?(c|m)[tj]s?(x)\"",
-    "format-fix": "prettier --write --cache \"**/*.?(c|m)[tj]s?(x)\""
+    "format": "prettier --write \"**/*.[tj]s\""
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.1.1",

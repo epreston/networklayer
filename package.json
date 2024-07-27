@@ -3,12 +3,15 @@
   "type": "module",
   "name": "@networklayer/monorepo",
   "version": "0.0.2",
-  "packageManager": "npm@10.8.1",
   "repository": "github:epreston/networklayer",
   "workspaces": [
     "packages/*"
   ],
   "prettier": "@epreston/prettier-config",
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
@@ -31,8 +34,5 @@
     "prettier": "^3.3.3",
     "vite": "^5.3.4",
     "vitest": "^2.0.4"
-  },
-  "engines": {
-    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
   }
 }

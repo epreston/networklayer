@@ -25,7 +25,7 @@
     "@epreston/eslint-config": "^2.1.1",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
-    "@types/node": "^22.8.1",
+    "@types/node": "^22.8.7",
     "@vitest/coverage-v8": "^2.1.4",
     "eslint": "^9.13.0",
     "jsdom": "^25.0.1",

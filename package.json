@@ -27,7 +27,7 @@
     "@epreston/tsconfig": "^1.2.1",
     "@types/node": "^22.13.13",
     "@vitest/coverage-v8": "^2.1.8",
-    "eslint": "^9.22.0",
+    "eslint": "^9.23.0",
     "jsdom": "^25.0.1",
     "prettier": "^3.5.1",
     "vite": "^5.4.14",

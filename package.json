@@ -8,9 +8,9 @@
     "packages/*"
   ],
   "prettier": "@epreston/prettier-config",
-  "packageManager": "npm@10.8.2",
+  "packageManager": "npm@11.7.0",
   "engines": {
-    "node": "^20.17.0 || >=22.7.0"
+    "node": "^20.19.0 || >=22.21.0"
   },
   "scripts": {
     "dev": "vite",

@@ -3,7 +3,10 @@
   "type": "module",
   "name": "@networklayer/monorepo",
   "version": "0.0.2",
-  "repository": "github:epreston/networklayer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/networklayer.git"
+  },
   "workspaces": [
     "packages/*"
   ],

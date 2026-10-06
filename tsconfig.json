@@ -15,7 +15,7 @@
     "resolveJsonModule": true,
 
     /* Emit */
-    "outDir": "temp"
+    "outDir": "./temp"
   },
   "include": [
     "src",

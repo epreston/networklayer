@@ -14,3 +14,22 @@ updates:
     directory: /
     schedule:
       interval: monthly
+
+    groups:
+      # matching packages that must update together
+      vitest-ecosystem:
+        patterns:
+          - 'vitest'
+          - '@vitest/*'
+
+      npm-dev:
+        dependency-type: development
+        update-types:
+          - minor
+          - patch
+
+      npm-prod:
+        dependency-type: production
+        update-types:
+          - minor
+          - patch

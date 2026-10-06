@@ -7,11 +7,9 @@
     "lib": ["es2024", "dom", "dom.iterable", "webworker"],
 
     /* Modules */
-    "rootDir": ".",
-    "baseUrl": ".",
     "paths": {
-      "@networklayer/*": ["packages/*/src"],
-      "networklayer": ["packages/networklayer/src"]
+      "@networklayer/*": ["./packages/*/src"],
+      "networklayer": ["./packages/networklayer/src"]
     },
     "types": ["vitest/globals", "node"],
     "resolveJsonModule": true,

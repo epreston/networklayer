@@ -4,6 +4,7 @@
   "compilerOptions": {
     /* Language and Environment */
     "target": "es2024", // Node.js 22+
+    "lib": ["es2024", "dom", "dom.iterable", "webworker"],
 
     /* Modules */
     "rootDir": ".",
